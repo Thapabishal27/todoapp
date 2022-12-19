@@ -1,0 +1,60 @@
+.container {
+  background-color: #e7eded;
+  height: 600px;
+  width: 500px;
+  text-align: center;
+  border: 2px solid rgb(195, 192, 192);
+  box-shadow: 0 0 6px rgb(145, 146, 147);
+  margin: 20px auto 0 auto;
+}
+
+.title {
+  background-color: #06e1b5;
+  padding: 12px;
+  color: white;
+}
+
+.input-field {
+  margin-top: 20px;
+  width: 70%;
+  height: 24px;
+  font-size: 16px;
+  background-color: #e5e5e5;
+}
+
+button {
+  height: 28px;
+  background-color: #06e1b5;
+  padding: 6px;
+  margin-left: 12px;
+}
+
+.lists {
+  font-size: 20px;
+  list-style-type: none;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.listTask {
+  margin-bottom: 12px;
+  border-radius: 4px;
+  text-align: center;
+  color: #7f7b7b;
+}
+.delete {
+  display: inline-flex;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+.deleteall {
+  background-color: red;
+  color: white;
+  margin-top: 100px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+img {
+  width: 18px;
+}
