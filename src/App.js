@@ -46,7 +46,7 @@ function App() {
           onKeyDown={handleKeyDown}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <button onClick={handleClick}>Add items</button>
+        <button onClick={handleClick}>Add Task</button>
         <div className="list-items">
           <ul className="lists">
             {listValue.map((listValue, id) => {
